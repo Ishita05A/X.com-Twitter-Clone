@@ -24,7 +24,7 @@
                     </g>
                 </svg>
             </div>
-            <div class="side-bar flex justify-end">
+            <div class="side-bar flex  items-end flex-col">
 
                 <ul class="flex flex-col text-2xl space-y-3 px-11 font-bold ">
                     <li
@@ -89,7 +89,9 @@
                             more_horiz
                         </span>More
                     </li>
-
+                    <li>
+                        <div class="w-full text-center my-4" ><button class="bg-blue-600 px-16 rounded-full text-2xl py-2">Post</button></div>
+                    </li>
 
 
                 </ul>
@@ -107,13 +109,38 @@
                 <div class="img m-5 ">
                     <img src="profile.png" class="w-20 h-27 rounded-full" alt="">
                 </div>
-                <input class="w-full h-7 bg-black text-white mx-5 outline-none my-3 text-xl" type="text"
-                    placeholder="Whats Happening?! ">
-                <div clas="text-blue-800">
-                    <span class="material-symbols-outlined "> globe_asia </span>
-                    Everyone can reply
+                <div class="w-full">
+                    <input class="w-full h-7 bg-black text-white  outline-none my-3 text-xl" type="text"
+                        placeholder="Whats Happening?! ">
+                    <div class="text-blue-600 flex items-center  gap-1 my-4 w-full">
+                        <span class="material-symbols-outlined text-sm"> globe_asia </span>
+                        <span class="font-bold">Everyone can reply</span>
+                    </div>
+                    <div class="w-[90%] h-[0.2px] bg-gray-400 my-3"></div>
+                    <div class="blueicons flex gap-2 my-2 text-blue-600">
+                        <span class="material-symbols-outlined">
+                            image
+                        </span>
+                        <span class="material-symbols-outlined">
+                            gif
+                        </span>
+                        <span class="material-symbols-outlined">
+                            ballot
+                        </span>
+                        <span class="material-symbols-outlined">
+                            sentiment_satisfied
+                        </span>
+                        <span class="material-symbols-outlined">
+                            calendar_month
+                        </span>
+                        <span class="material-symbols-outlined">
+                            pin_drop
+                        </span>
+                    </div>
                 </div>
+
             </div>
+            <hr>
         </div>
         <div class="third  w-full">
             <div class="search m-3">
